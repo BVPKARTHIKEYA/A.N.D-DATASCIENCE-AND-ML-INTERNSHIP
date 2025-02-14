@@ -1,0 +1,10 @@
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+matplotlib==3.7.2
+seaborn==0.12.2
+imbalanced-learn==0.11.0
+xgboost==1.7.6
+lightgbm==4.1.0
+tensorflow==2.13.0  # If using deep learning
+notebook==7.0.6     # If using Jupyter Notebook
