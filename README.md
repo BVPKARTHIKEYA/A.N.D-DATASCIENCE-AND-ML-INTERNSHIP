@@ -92,7 +92,7 @@ Follow these steps to run the projects:
 📈 Results & Visualizations
 ---------------------------
 
-*   **🏠 Housing Prices Prediction**
+*   **🏠 Used Cars Price Prediction**
     
     *   **📉 Model Performance:**
         
