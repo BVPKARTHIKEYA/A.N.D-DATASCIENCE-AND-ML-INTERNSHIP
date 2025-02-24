@@ -102,5 +102,5 @@ For any questions, feel free to reach out:
 Name: Boddeda Venkata Pavan Karthikeya
 
 Email: sunny.penny041@gmail.com
+[LinkedIn Profile](https://www.linkedin.com/in/boddeda-venkata-pavan-karthikeya-1a670b255/)
 
-LinkedIn: LinkedIn Profile
