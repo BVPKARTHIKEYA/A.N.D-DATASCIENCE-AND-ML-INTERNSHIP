@@ -13,69 +13,71 @@ This project aims to predict the prices of used cars using a machine learning ap
 - [Contact Information](#contact-information)
 
 
-Project Overview
-The objective of this project is to predict the price of used cars based on features like:
+# Used Cars Price Prediction
 
-Year of manufacture
-Kilometers driven
-Fuel type
-Car city
-The workflow involves:
+This project aims to predict the prices of used cars using a machine learning approach. The dataset is cleaned, preprocessed, and used to train a Random Forest Regressor model to predict the price of used cars based on various features such as the car's age, kilometers driven, fuel type, and city. The project also includes data visualizations and model evaluation metrics.
 
-Data preprocessing and cleaning
-Encoding categorical variables
-Feature scaling and normalization
-Model training using Random Forest Regressor
-Model evaluation using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² score.
-Visualization of actual vs. predicted prices and feature importance.
-Dataset Information
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dataset Information](#dataset-information)
+- [Setup Instructions](#setup-instructions)
+- [Data Preprocessing](#data-preprocessing)
+- [Model Training and Evaluation](#model-training-and-evaluation)
+- [Results & Visualizations](#results--visualizations)
+- [Contributing](#contributing)
+- [Contact Information](#contact-information)
+
+## Project Overview
+
+The objective of this project is to predict the price of used cars based on the following features:
+
+- **Year of manufacture**
+- **Kilometers driven**
+- **Fuel type**
+- **Car city**
+
+### The workflow involves:
+
+- Data preprocessing and cleaning
+- Encoding categorical variables
+- Feature scaling and normalization
+- Model training using **Random Forest Regressor**
+- Model evaluation using metrics like:
+  - **Mean Absolute Error (MAE)**
+  - **Mean Squared Error (MSE)**
+  - **R² score**
+- Visualization of:
+  - Actual vs predicted prices
+  - Feature importance
+
+## Dataset Information
+
 The dataset used for this project contains information about used cars. Below is a description of the dataset:
 
-File Format: CSV
-Columns: The dataset includes features like car_price_in_rupees, year_of_manufacture, kms_driven, fuel_type, city, etc.
-Source: A local dataset (you can replace this with a link to your dataset if hosted online).
-Data Cleaning:
-Missing values are filled.
-Outliers are removed using Z-score.
-Categorical variables are one-hot encoded.
-Setup Instructions
-Clone the repository:
+- **File Format**: CSV
+- **Columns**: The dataset includes features like:
+  - `car_price_in_rupees`
+  - `year_of_manufacture`
+  - `kms_driven`
+  - `fuel_type`
+  - `city`
+- **Source**: A local dataset (you can replace this with a link to your dataset if hosted online).
 
-bash
-Copy
+### Data Cleaning:
+- Missing values are filled with:
+  - Mean for numerical columns
+  - Mode for categorical columns
+- **Outliers** are removed using Z-scores.
+- **Categorical variables** are one-hot encoded.
+
+## Setup Instructions
+
+### 1. Clone the repository:
+```bash
 git clone https://github.com/your-username/used-car-price-prediction.git
 cd used-car-price-prediction
-Create a virtual environment:
 
-bash
-Copy
-python3 -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install dependencies:
-
-bash
-Copy
-pip install -r requirements.txt
-Download or place your dataset in the data/ folder and update the data_url variable in the code to point to the correct file path.
-
-Data Preprocessing
-This step involves cleaning and preparing the dataset for model training:
-
-Missing Values: Numerical columns are filled with the mean, and categorical columns are filled with the mode.
-Currency and String Cleaning: The car_price_in_rupees column is cleaned by removing currency symbols and converting to numeric values (handling Lakh and Crore).
-Outliers: Outliers are detected using Z-scores and removed.
-One-Hot Encoding: Categorical variables like fuel_type and city are one-hot encoded.
-Feature Scaling: Numerical features like kms_driven are standardized using StandardScaler.
-Model Training and Evaluation
-Model Selection
-Random Forest Regressor is chosen as the model to predict car prices.
-Hyperparameters are optimized using GridSearchCV to find the best model configuration.
-Model Evaluation
-The model's performance is evaluated using:
-
-Mean Absolute Error (MAE)
-Mean Squared Error (MSE)
-R² Score
 Results & Visualizations
 Actual vs Predicted Prices: A scatter plot showing actual vs predicted prices. This helps visualize how accurate the model's predictions are.
 
