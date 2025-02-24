@@ -81,9 +81,12 @@ Actual vs Predicted Prices: A scatter plot showing actual vs predicted prices. T
 
 ![image](https://github.com/user-attachments/assets/04fe9866-2dfc-4de9-8897-c107fe4a7202)
 
+Actual vs. Predicted Prices: Scatter plot comparing actual vs. predicted prices, where clustering along the diagonal indicates strong model performance.
+
 
 Feature Importance: A bar chart visualizing the importance of each feature used by the Random Forest Regressor model.
 
+Feature Importance: Bar chart ranking features by their importance in the model, showing their relative influence on predictions.
 
 ![image](https://github.com/user-attachments/assets/92bf8dd9-0869-4d53-8b0c-7386dedc6d68)
 
@@ -91,6 +94,8 @@ Feature Importance: A bar chart visualizing the importance of each feature used 
 Residual Plot: A residual plot is generated to analyze the distribution of prediction errors.
 
 ![image](https://github.com/user-attachments/assets/a5de7856-1375-4ae8-8091-02e0e097afc0)
+
+Residual Plot: Scatter plot of residuals vs. predicted prices, used to assess the model's errors and identify potential issues.
 
 
 
