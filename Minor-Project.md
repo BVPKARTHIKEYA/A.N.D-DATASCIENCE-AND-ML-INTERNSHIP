@@ -1,16 +1,18 @@
 Used Cars Price Prediction
 This project aims to predict the prices of used cars using a machine learning approach. The dataset is cleaned, preprocessed, and used to train a Random Forest Regressor model to predict the price of used cars based on various features such as the car's age, kilometers driven, fuel type, and city. The project also includes data visualizations and model evaluation metrics.
 
-Table of Contents
-Project Overview
-Dataset Information
-Setup Instructions
-Data Preprocessing
-Model Training and Evaluation
-Results & Visualizations
-Contributing
-License
-Contact Information
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dataset Information](#dataset-information)
+- [Setup Instructions](#setup-instructions)
+- [Data Preprocessing](#data-preprocessing)
+- [Model Training and Evaluation](#model-training-and-evaluation)
+- [Results & Visualizations](#results--visualizations)
+- [Contributing](#contributing)
+- [Contact Information](#contact-information)
+
+
 Project Overview
 The objective of this project is to predict the price of used cars based on features like:
 
