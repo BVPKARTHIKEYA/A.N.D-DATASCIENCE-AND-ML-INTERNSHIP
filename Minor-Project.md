@@ -61,7 +61,7 @@ The dataset used for this project contains information about used cars. Below is
 ## Setup Instructions
 
 ### 1. Clone the repository:
-```bash
+
 git clone https://github.com/your-username/used-car-price-prediction.git
 cd used-car-price-prediction
 
