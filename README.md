@@ -270,11 +270,6 @@ For detailed guidelines, please check our [CONTRIBUTING.md](CONTRIBUTING.md) ✨
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 📧 Contact Information
 
